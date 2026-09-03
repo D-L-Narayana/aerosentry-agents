@@ -1,0 +1,5 @@
+{"drone_id": "D-01", "site_id": "solar-farm-01", "battery_pct": 92, "gps_fix": "3D", "satellites": 17, "wind_ms": 4.2, "link_quality": 88, "dock_state": "ready", "temp_c": 31, "last_seen": "2026-09-03T09:58:00Z"}
+{"drone_id": "D-02", "site_id": "solar-farm-01", "battery_pct": 33, "gps_fix": "3D", "satellites": 14, "wind_ms": 4.5, "link_quality": 81, "dock_state": "charging", "temp_c": 32, "last_seen": "2026-09-03T09:58:00Z"}
+{"drone_id": "D-03", "site_id": "refinery-02", "battery_pct": 77, "gps_fix": "2D", "satellites": 7, "wind_ms": 9.1, "link_quality": 64, "dock_state": "ready", "temp_c": 29, "last_seen": "2026-09-03T09:57:30Z"}
+{"drone_id": "D-04", "site_id": "rail-yard-03", "battery_pct": 68, "gps_fix": "3D", "satellites": 15, "wind_ms": 6.0, "link_quality": 92, "dock_state": "maintenance", "temp_c": 30, "last_seen": "2026-09-03T09:55:10Z"}
+{"drone_id": "D-05", "site_id": "refinery-02", "battery_pct": 85, "gps_fix": "3D", "satellites": 16, "wind_ms": 9.1, "link_quality": 79, "dock_state": "ready", "temp_c": 29, "last_seen": "2026-09-03T09:58:00Z"}

@@ -1,0 +1,5 @@
+{
+  "solar-farm-01": {"wind_ms": 4.2, "gust_ms": 6.0, "precip_mm": 0.0, "visibility_km": 9.5, "irradiance_wm2": 812, "updated": "2026-09-03T09:55:00Z"},
+  "refinery-02": {"wind_ms": 9.1, "gust_ms": 12.4, "precip_mm": 0.0, "visibility_km": 6.0, "irradiance_wm2": 640, "updated": "2026-09-03T09:55:00Z"},
+  "rail-yard-03": {"wind_ms": 6.0, "gust_ms": 8.1, "precip_mm": 1.2, "visibility_km": 3.2, "irradiance_wm2": 300, "updated": "2026-09-03T09:55:00Z"}
+}

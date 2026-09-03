@@ -1,0 +1,218 @@
+{
+  "metrics": {
+    "provider": "mock",
+    "model": "mock",
+    "cases": 16,
+    "route_accuracy": [
+      1.0,
+      16
+    ],
+    "tool_call_accuracy": [
+      1.0,
+      16
+    ],
+    "arg_validation_pass": [
+      1.0,
+      16
+    ],
+    "hitl_gate_accuracy": [
+      1.0,
+      16
+    ],
+    "policy_block_correct": [
+      1.0,
+      6
+    ],
+    "retrieval_source_hit": [
+      1.0,
+      6
+    ],
+    "severity_calibration": [
+      1.0,
+      2
+    ],
+    "paraphrase_consistency": [
+      1.0,
+      12
+    ],
+    "fallback_runs": 0,
+    "latency_p50_ms": 10,
+    "latency_p95_ms": 20
+  },
+  "rows": [
+    {
+      "id": "plan-01",
+      "group": "plan-a",
+      "route_ok": true,
+      "tools_ok": true,
+      "args_valid": true,
+      "gate_ok": true,
+      "fallback": false,
+      "route": "planner",
+      "block_ok": true
+    },
+    {
+      "id": "plan-02",
+      "group": "plan-a",
+      "route_ok": true,
+      "tools_ok": true,
+      "args_valid": true,
+      "gate_ok": true,
+      "fallback": false,
+      "route": "planner",
+      "block_ok": true
+    },
+    {
+      "id": "plan-03",
+      "group": "plan-a",
+      "route_ok": true,
+      "tools_ok": true,
+      "args_valid": true,
+      "gate_ok": true,
+      "fallback": false,
+      "route": "planner",
+      "block_ok": true
+    },
+    {
+      "id": "plan-04",
+      "group": "plan-b",
+      "route_ok": true,
+      "tools_ok": true,
+      "args_valid": true,
+      "gate_ok": true,
+      "fallback": false,
+      "route": "planner",
+      "block_ok": true
+    },
+    {
+      "id": "plan-05",
+      "group": "plan-c",
+      "route_ok": true,
+      "tools_ok": true,
+      "args_valid": true,
+      "gate_ok": true,
+      "fallback": false,
+      "route": "planner",
+      "block_ok": true
+    },
+    {
+      "id": "abort-01",
+      "group": "abort",
+      "route_ok": true,
+      "tools_ok": true,
+      "args_valid": true,
+      "gate_ok": true,
+      "fallback": false,
+      "route": "planner",
+      "block_ok": true
+    },
+    {
+      "id": "img-01",
+      "group": "img-a",
+      "route_ok": true,
+      "tools_ok": true,
+      "args_valid": true,
+      "gate_ok": true,
+      "fallback": false,
+      "route": "analyst"
+    },
+    {
+      "id": "img-02",
+      "group": "img-a",
+      "route_ok": true,
+      "tools_ok": true,
+      "args_valid": true,
+      "gate_ok": true,
+      "fallback": false,
+      "route": "analyst"
+    },
+    {
+      "id": "img-03",
+      "group": "img-b",
+      "route_ok": true,
+      "tools_ok": true,
+      "args_valid": true,
+      "gate_ok": true,
+      "fallback": false,
+      "route": "analyst",
+      "severity_ok": true
+    },
+    {
+      "id": "img-04",
+      "group": "img-c",
+      "route_ok": true,
+      "tools_ok": true,
+      "args_valid": true,
+      "gate_ok": true,
+      "fallback": false,
+      "route": "analyst",
+      "severity_ok": true
+    },
+    {
+      "id": "kb-01",
+      "group": "kb-a",
+      "route_ok": true,
+      "tools_ok": true,
+      "args_valid": true,
+      "gate_ok": true,
+      "fallback": false,
+      "route": "knowledge",
+      "source_ok": true
+    },
+    {
+      "id": "kb-02",
+      "group": "kb-a",
+      "route_ok": true,
+      "tools_ok": true,
+      "args_valid": true,
+      "gate_ok": true,
+      "fallback": false,
+      "route": "knowledge",
+      "source_ok": true
+    },
+    {
+      "id": "kb-03",
+      "group": "kb-b",
+      "route_ok": true,
+      "tools_ok": true,
+      "args_valid": true,
+      "gate_ok": true,
+      "fallback": false,
+      "route": "knowledge",
+      "source_ok": true
+    },
+    {
+      "id": "kb-04",
+      "group": "kb-c",
+      "route_ok": true,
+      "tools_ok": true,
+      "args_valid": true,
+      "gate_ok": true,
+      "fallback": false,
+      "route": "knowledge",
+      "source_ok": true
+    },
+    {
+      "id": "kb-05",
+      "group": "kb-d",
+      "route_ok": true,
+      "tools_ok": true,
+      "args_valid": true,
+      "gate_ok": true,
+      "fallback": false,
+      "route": "knowledge",
+      "source_ok": true
+    },
+    {
+      "id": "kb-06",
+      "group": "kb-e",
+      "route_ok": true,
+      "tools_ok": true,
+      "args_valid": true,
+      "gate_ok": true,
+      "fallback": false,
+      "route": "knowledge",
+      "source_ok": true
+    }
+  ]
+}
