@@ -37,6 +37,13 @@ checks. Everything is traced, evaluated on a golden set, and runs offline in CI.
                      └───────────────┘
 ```
 
+## Related projects
+
+AeroSentry is the *action layer*. Two companion repos cover the other halves of a drone-ops agent stack:
+
+- [FleetRAG](https://github.com/D-L-Narayana/fleetrag) — grounded RAG + persistent memory (Milvus / Pinecone, hybrid BM25 + MiniLM with RRF, evidence-gated cited answers; Recall@5 = 1.00 on its golden set). Live: https://fleetrag.vercel.app
+- [AeroVision](https://github.com/D-L-Narayana/aerovision) — vision-language perception (CLIP zero-shot 67.3% → linear probe 93.0% on UC Merced; radiometric hotspot detector P 100% / R 93.6%) emitting schema-validated `InspectionReport`s. Live: https://d-l-narayana.github.io/aerovision
+
 ## What it demonstrates
 
 | Capability | Where |
